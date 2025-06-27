@@ -1,0 +1,44 @@
+[
+    {
+        "username": "admin",
+        "password": "AdminPass123!",
+        "permissions": {
+            "read": true,
+            "write": true,
+            "delete": true,
+            "manage_users": true,
+            "server_control": true,
+            "view_logs": true,
+            "backup_restore": true,
+            "system_config": true
+        }
+    },
+    {
+        "username": "moderator",
+        "password": "ModPass456@",
+        "permissions": {
+            "read": true,
+            "write": true,
+            "delete": false,
+            "manage_users": false,
+            "server_control": true,
+            "view_logs": true,
+            "backup_restore": false,
+            "system_config": false
+        }
+    },
+    {
+        "username": "viewer",
+        "password": "ViewPass789#",
+        "permissions": {
+            "read": true,
+            "write": false,
+            "delete": false,
+            "manage_users": false,
+            "server_control": false,
+            "view_logs": true,
+            "backup_restore": false,
+            "system_config": false
+        }
+    }
+]
