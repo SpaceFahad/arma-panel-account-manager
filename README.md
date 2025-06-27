@@ -2,7 +2,7 @@
 
 A simple web application to manage user accounts and permissions stored in `accounts.json`.
 
-This is specifically made for use with https://github.com/HBTurpinArma/arma-server-web-admin account.json file.
+### This project is made to be used specifically with https://github.com/HBTurpinArma/arma-server-web-admin accounts.json file.
 
 ## Features
 
@@ -28,13 +28,16 @@ This is specifically made for use with https://github.com/HBTurpinArma/arma-serv
    ```bash
    npm install
    ```
+2. **Rename `accounts.json.sample`**
+   To `accounts.json`
 
-2. **Start the Server**:
+   Everytime you make changes to the accounts.json through the app, dont forget to copy/overwrite it in your arma-server-web-admin folder in order for the new changes to be applied, P.S. dont forget to restart your arma panel after any changes to the accounts.json 
+3. **Start the Server**:
    ```bash
    npm start
    ```
 
-3. **Access the Application**:
+4. **Access the Application**:
    Open your browser and go to: `http://localhost:52596`
 
 ## File Structure
