@@ -36,14 +36,14 @@ Access at: http://localhost:52596
 
 2. **Portable Directory**
    - Extract: `Account-Manager-Linux.tar.gz`
-   - Run: `./linux-unpacked/account-manager`
-   - Or use: `./linux-unpacked/start-account-manager.sh`
+   - Run: `./linux/account-manager`
+   - Or use: `./linux/start-account-manager.sh`
 
 #### Windows
 1. **Portable Directory**
-   - Extract: `Account-Manager-Windows.tar.gz`
-   - Run: `win-unpacked/Account Manager.exe`
-   - Or use: `win-unpacked/Start Account Manager.bat`
+   - Extract: `Account-Manager-Windows.zip`
+   - Run: `win/Account Manager.exe`
+   - Or use: `win/Start Account Manager.bat`
 
 ### Desktop App Features
 - **Standalone**: No Node.js or server required
@@ -58,11 +58,11 @@ dist/
 ├── Account-Manager-Linux.tar.gz            # Linux portable
 ├── Account-Manager-Windows.tar.gz          # Windows portable
 ├── README.txt                              # User instructions
-├── linux-unpacked/
+├── linux/
 │   ├── account-manager                     # Linux executable
 │   ├── accounts.json                       # Data file
 │   └── start-account-manager.sh           # Launch script
-└── win-unpacked/
+└── win/
     ├── Account Manager.exe                 # Windows executable
     ├── accounts.json                       # Data file
     └── Start Account Manager.bat          # Launch script
